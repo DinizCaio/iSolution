@@ -1,5 +1,17 @@
+.mobile-only {
+  display: none;
+}
+
 .flex {
   display: flex;
+}
+
+.itens-center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
 }
 
 .grid {
@@ -20,4 +32,24 @@
 
 .gap-2 {
   gap: 2rem;
+}
+
+.padY-1 {
+  padding-block: 1rem;
+}
+
+.container {
+  width: 70%;
+  height: 100%;
+  margin-inline: auto;
+}
+
+.toggle-hidden {
+  display: none;
+}
+
+@media (width < 750px) {
+  .mobile-only {
+    display: initial;
+  }
 }

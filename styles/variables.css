@@ -1,0 +1,14 @@
+:root {
+  /* Colors */
+  --color-blue: #003366;
+  --color-black: #020200;
+  --color-white: #ffffff;
+
+  /* Font */
+
+  --fs-nav: 1.125rem;
+
+  --ff-Poppins: "Poppins", sans-serif;
+
+  --fw-sb: 600;
+}
